@@ -1,0 +1,7 @@
+export const SET_ITEMS_LIST = 'SET_ITEMS_LIST';
+export const SORT_LIST = 'SORT_LIST';
+export const CHANGE_LIKES = 'CHANGE_LIKES';
+export const CLICK_ON_TITTLE = 'CLICK_ON_TITTLE';
+export const CHANGE_RAITING = 'CHANGE_RAITING';
+export const CHANGE_VALUE_OF_INPUT = 'CHANGE_VALUE_OF_INPUT';
+export const SUBMIT_FORM = 'SUBMIT_FORM';

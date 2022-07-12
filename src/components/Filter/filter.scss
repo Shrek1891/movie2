@@ -1,0 +1,57 @@
+input {
+    width: 400px;
+    height: 25px;
+    padding: 5px;
+}
+
+.Search {
+    position: relative;
+}
+
+.ButtonSearch {
+    width: 40px;
+    height: 100%;
+    cursor: pointer;
+    
+    background-image: url('../imgs/searchengin-brands.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: aliceblue;
+    position: absolute;
+    right:  0;
+}
+
+.ButtonSearch:active {
+    transform: scale(.98);
+}
+
+
+.Button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: skyblue;
+    box-shadow: 10px 10px 12px 5px rgba(0,0,0,0.75);
+    cursor: pointer;
+    
+    
+}
+
+.Button:active {
+    transform: scale(.98);
+}
+
+
+.Btns {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.Sort {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

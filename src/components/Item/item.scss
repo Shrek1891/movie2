@@ -1,0 +1,120 @@
+.Card {
+    width: 361px;
+    height: 505px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+
+}
+
+.Like {
+    background-image: url('../imgs/thumbs-up-solid.svg');
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: none;
+}
+
+.DisLike {
+    background-image: url('../imgs/thumbs-up-solid.svg');
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: none;
+    transform: rotate(180deg);
+}
+
+.likes_body {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    
+}
+
+button {
+    cursor: pointer;
+}
+
+
+.body {
+    display: flex;
+}
+
+.body .border {
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_body {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 2px solid black;
+    padding-bottom: 20px;
+}
+
+img {
+    display: block;
+    width: 220px;
+    height: 330px;
+}
+
+.full {
+    background-image: url('../imgs/star-solid.svg');
+    width: 25px;
+    height: 25px;
+    display: block;
+}
+
+.empty {
+    background-image: url('../imgs/meteor-solid.svg');
+    width: 25px;
+    height: 25px;
+    display: block;
+}
+
+.Stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.Stars span {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.Star {
+    display: flex;
+    
+
+}
+
+.Star :hover {
+    transform: scale(1.2);
+}
+
+.Title {
+    cursor: pointer;
+}
+
+.Title:hover {
+    color: royalblue;
+    
+}
